@@ -2,7 +2,7 @@ package quebraLinha.java;
 
 public class Escritor {
 
-	private VoQuebraLinha pojo = new VoQuebraLinha();
+	private VoQuebraLinha pojo = new VoQuebraLinha("Um pequeno jabuti xereta viu dez cegonhas felizes.", 20);
 	private String fraseQuebrada = "";
 	private int espaco = 0;
 

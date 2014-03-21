@@ -15,10 +15,8 @@ public class QuebraLinha {
 
 	public static void main(String[] args) {
 
-		VoQuebraLinha quebra = new VoQuebraLinha();
-		quebra.setFrase("Um pequeno jabuti xereta viu dez cegonhas felizes.");
-		quebra.setQtdColunas(20);
-		
+		VoQuebraLinha quebra = new VoQuebraLinha("Um pequeno jabuti xereta viu dez cegonhas felizes.", 20);
+				
 		Escritor escritor = new Escritor(quebra);
 		escritor.quebraFrase();
 		escritor.escreveFrase();
