@@ -1,4 +1,4 @@
-package quebraLinha;
+package quebraLinha.java;
 
 public class VoQuebraLinha {
 
