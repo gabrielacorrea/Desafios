@@ -35,5 +35,9 @@ public class Escritor {
 	public void escreveFrase() {
 		System.out.println("Resultado: \n" + this.fraseQuebrada);
 	}
+	
+	public String getFraseQuebrada() {
+		return this.fraseQuebrada;
+	}
 
 }
